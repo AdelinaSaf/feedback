@@ -1,0 +1,23 @@
+# FastAPI и ASGI-сервер
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# База данных (async PostgreSQL)
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+
+# Валидация и настройки
+pydantic[email]==2.10.4
+pydantic-settings==2.7.0
+
+# Rate limiting
+slowapi==0.1.9
+
+# AI (Groq через OpenAI SDK)
+openai==1.58.1
+
+# Email (опционально fastapi-mail; используем stdlib smtplib)
+# fastapi-mail==1.4.2
+
+# Утилиты
+python-dotenv==1.0.1
